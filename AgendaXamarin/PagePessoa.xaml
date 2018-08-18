@@ -12,7 +12,7 @@
             <Entry Text="{Binding Email}"/>
 
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-               <Button Text="Salvar xx" FontSize="10" WidthRequest="70" Clicked="OnSavePessoa"/>
+               <Button Text="Salvar" FontSize="10" WidthRequest="70" Clicked="OnSavePessoa"/>
                <Button Text="Cancelar" Clicked="OnCancelClicked" FontSize="10" WidthRequest="80"/>
             </StackLayout>
         </StackLayout>
